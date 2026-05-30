@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf1rsgrp"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://strg1adls.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sureshdb.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "dbone"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adf_user"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-74KIGU06"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "testing"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "suresh"
+		}
+	}
+}
