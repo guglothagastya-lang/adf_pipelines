@@ -1,0 +1,15 @@
+{
+	"name": "adf1rsgrp",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cc32af20-fbe7-418b-83b1-2d8c9ae80e45",
+		"tenantId": "0918ab76-5550-4d4f-a30c-3e9e425ca4b4"
+	}
+}
